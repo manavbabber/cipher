@@ -48,6 +48,7 @@ namespace Cipher.Controllers {
             var rot13_cipher_view = new Cipher.Views.ROT13CipherView ();
             var base64_encoding_view = new Cipher.Views.Base64EncodingView ();
             var hash_functions_view = new Cipher.Views.HashFunctionsView ();
+            var beaufort_cipher_view = new Cipher.Views.BeaufortCipherView ();
 
             view_stack.show_all ();
 
@@ -59,7 +60,8 @@ namespace Cipher.Controllers {
             view_stack.add_named (rot13_cipher_view, "rot13_cipher");
             view_stack.add_named (base64_encoding_view, "base64_encoding");
             view_stack.add_named (hash_functions_view, "hash_functions");
-
+            view_stack.add_named (beaufort_cipher_view, "beaufort_cipher");
+    
             headerbar.disable_back_button ();
             headerbar.disable_wiki_icon ();
 

@@ -9,6 +9,7 @@ sources = files(
     'ciphers/Ascii.vala',
     'ciphers/Rot13.vala',
     'ciphers/Base64.vala',
+    'ciphers/Beaufort.vala',
 
     'controllers/AppController.vala',
 
@@ -20,6 +21,7 @@ sources = files(
     'views/HashFunctionsView.vala',
     'views/PolybiusSquareCipherView.vala',
     'views/ROT13CipherView.vala',
+    'views/BeaufortCipherView.vala',
     
     'Main.vala',
     

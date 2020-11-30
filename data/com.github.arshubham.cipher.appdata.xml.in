@@ -68,6 +68,7 @@
       <li>Base64 Encoding</li>
       <li>Polybius Square Cipher</li>
       <li>Hashing Functions (MD5, SHA1, SHA256)</li>
+      <li>Beaufort Cipher</li>
     </ul>
   </description>
   <url type="homepage">https://github.com/arshubham/cipher</url>
